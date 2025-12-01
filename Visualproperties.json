@@ -1,0 +1,180 @@
+{
+    "scene": {
+        "type": "object",
+        "required": [
+            "type",
+            "location"
+        ],
+        "properties": {
+            "type": {
+                "type": "string",
+                "enum": [
+                    "indoor",
+                    "outdoor",
+                    "mixed",
+                    "unknown"
+                ]
+            },
+            "location": {
+                "type": "string"
+            },
+            "weather": {
+                "type": "string",
+                "default": "none"
+            },
+            "time_of_day": {
+                "type": "string",
+                "default": "unknown"
+            }
+        }
+    },
+    "objects": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "required": [
+                "label",
+                "bbox",
+                "conf"
+            ],
+            "properties": {
+                "label": {
+                    "type": "string"
+                },
+                "bbox": {
+                    "type": "array",
+                    "items": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                    },
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "description": "[x, y, width, height] – normalised to frame size"
+                },
+                "conf": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                }
+            }
+        }
+    },
+    "people": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "required": [
+                "id",
+                "bbox"
+            ],
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "gender": {
+                    "type": "string",
+                    "enum": [
+                        "male",
+                        "female",
+                        "nonbinary",
+                        "unknown"
+                    ]
+                },
+                "expression": {
+                    "type": "string",
+                    "enum": [
+                        "neutral",
+                        "happy",
+                        "sad",
+                        "focused",
+                        "angry",
+                        "surprised",
+                        "unknown"
+                    ]
+                },
+                "bbox": {
+                    "type": "array",
+                    "items": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                    },
+                    "minItems": 4,
+                    "maxItems": 4
+                }
+            }
+        }
+    },
+    "actions": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "required": [
+                "verb",
+                "subject"
+            ],
+            "properties": {
+                "verb": {
+                    "type": "string"
+                },
+                "subject": {
+                    "type": "string"
+                },
+                "object": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            }
+        }
+    },
+    "emotion": {
+        "type": "object",
+        "required": [
+            "overall"
+        ],
+        "properties": {
+            "overall": {
+                "type": "string",
+                "enum": [
+                    "neutral",
+                    "happy",
+                    "sad",
+                    "focused",
+                    "angry",
+                    "surprised",
+                    "unknown"
+                ]
+            }
+        }
+    },
+    "lighting": {
+        "type": "object",
+        "required": [
+            "type",
+            "intensity"
+        ],
+        "properties": {
+            "type": {
+                "type": "string",
+                "enum": [
+                    "soft",
+                    "hard",
+                    "mixed",
+                    "unknown"
+                ]
+            },
+            "intensity": {
+                "type": "string",
+                "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                ]
+            }
+        }
+    }
+}

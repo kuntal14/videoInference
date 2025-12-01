@@ -1,0 +1,223 @@
+{
+  "video_path": "/Users/kuntalsuman/Downloads/demo.mov",
+  "video_file_size": 18712861,
+  "total_keyframes": 24,
+  "keyframes": [
+    {
+      "frame_number": 0,
+      "byte_offset": 36,
+      "pts_time": 0.0,
+      "packet_size": 115518,
+      "offset_start": 36,
+      "offset_end": 715662,
+      "segment_size": 715626
+    },
+    {
+      "frame_number": 33,
+      "byte_offset": 715662,
+      "pts_time": 1.376375,
+      "packet_size": 79365,
+      "offset_start": 715662,
+      "offset_end": 1513552,
+      "segment_size": 797890
+    },
+    {
+      "frame_number": 77,
+      "byte_offset": 1513552,
+      "pts_time": 3.211542,
+      "packet_size": 73328,
+      "offset_start": 1513552,
+      "offset_end": 2956882,
+      "segment_size": 1443330
+    },
+    {
+      "frame_number": 164,
+      "byte_offset": 2956882,
+      "pts_time": 6.840167,
+      "packet_size": 38628,
+      "offset_start": 2956882,
+      "offset_end": 3460108,
+      "segment_size": 503226
+    },
+    {
+      "frame_number": 221,
+      "byte_offset": 3460108,
+      "pts_time": 9.217542,
+      "packet_size": 117067,
+      "offset_start": 3460108,
+      "offset_end": 5774047,
+      "segment_size": 2313939
+    },
+    {
+      "frame_number": 258,
+      "byte_offset": 5774047,
+      "pts_time": 10.76075,
+      "packet_size": 171911,
+      "offset_start": 5774047,
+      "offset_end": 6856704,
+      "segment_size": 1082657
+    },
+    {
+      "frame_number": 313,
+      "byte_offset": 6856704,
+      "pts_time": 13.054708,
+      "packet_size": 76937,
+      "offset_start": 6856704,
+      "offset_end": 7445375,
+      "segment_size": 588671
+    },
+    {
+      "frame_number": 356,
+      "byte_offset": 7445375,
+      "pts_time": 14.848167,
+      "packet_size": 125047,
+      "offset_start": 7445375,
+      "offset_end": 9257367,
+      "segment_size": 1811992
+    },
+    {
+      "frame_number": 408,
+      "byte_offset": 9257367,
+      "pts_time": 17.017,
+      "packet_size": 122944,
+      "offset_start": 9257367,
+      "offset_end": 10034101,
+      "segment_size": 776734
+    },
+    {
+      "frame_number": 485,
+      "byte_offset": 10034101,
+      "pts_time": 20.228542,
+      "packet_size": 74670,
+      "offset_start": 10034101,
+      "offset_end": 10317619,
+      "segment_size": 283518
+    },
+    {
+      "frame_number": 525,
+      "byte_offset": 10317619,
+      "pts_time": 21.896875,
+      "packet_size": 126443,
+      "offset_start": 10317619,
+      "offset_end": 10712602,
+      "segment_size": 394983
+    },
+    {
+      "frame_number": 567,
+      "byte_offset": 10712602,
+      "pts_time": 23.648625,
+      "packet_size": 76068,
+      "offset_start": 10712602,
+      "offset_end": 11329442,
+      "segment_size": 616840
+    },
+    {
+      "frame_number": 631,
+      "byte_offset": 11329442,
+      "pts_time": 26.317958,
+      "packet_size": 123091,
+      "offset_start": 11329442,
+      "offset_end": 11776897,
+      "segment_size": 447455
+    },
+    {
+      "frame_number": 672,
+      "byte_offset": 11776897,
+      "pts_time": 28.028,
+      "packet_size": 81460,
+      "offset_start": 11776897,
+      "offset_end": 12759582,
+      "segment_size": 982685
+    },
+    {
+      "frame_number": 792,
+      "byte_offset": 12759582,
+      "pts_time": 33.033,
+      "packet_size": 81232,
+      "offset_start": 12759582,
+      "offset_end": 13214494,
+      "segment_size": 454912
+    },
+    {
+      "frame_number": 851,
+      "byte_offset": 13214494,
+      "pts_time": 35.493792,
+      "packet_size": 111837,
+      "offset_start": 13214494,
+      "offset_end": 13803273,
+      "segment_size": 588779
+    },
+    {
+      "frame_number": 900,
+      "byte_offset": 13803273,
+      "pts_time": 37.5375,
+      "packet_size": 76527,
+      "offset_start": 13803273,
+      "offset_end": 14158091,
+      "segment_size": 354818
+    },
+    {
+      "frame_number": 949,
+      "byte_offset": 14158091,
+      "pts_time": 39.581208,
+      "packet_size": 125302,
+      "offset_start": 14158091,
+      "offset_end": 15049838,
+      "segment_size": 891747
+    },
+    {
+      "frame_number": 1037,
+      "byte_offset": 15049838,
+      "pts_time": 43.251542,
+      "packet_size": 79170,
+      "offset_start": 15049838,
+      "offset_end": 15848907,
+      "segment_size": 799069
+    },
+    {
+      "frame_number": 1149,
+      "byte_offset": 15848907,
+      "pts_time": 47.922875,
+      "packet_size": 120596,
+      "offset_start": 15848907,
+      "offset_end": 16195572,
+      "segment_size": 346665
+    },
+    {
+      "frame_number": 1178,
+      "byte_offset": 16195572,
+      "pts_time": 49.132417,
+      "packet_size": 81258,
+      "offset_start": 16195572,
+      "offset_end": 16423152,
+      "segment_size": 227580
+    },
+    {
+      "frame_number": 1209,
+      "byte_offset": 16423152,
+      "pts_time": 50.425375,
+      "packet_size": 120290,
+      "offset_start": 16423152,
+      "offset_end": 17196042,
+      "segment_size": 772890
+    },
+    {
+      "frame_number": 1276,
+      "byte_offset": 17196042,
+      "pts_time": 53.219833,
+      "packet_size": 55266,
+      "offset_start": 17196042,
+      "offset_end": 17421683,
+      "segment_size": 225641
+    },
+    {
+      "frame_number": 1299,
+      "byte_offset": 17421683,
+      "pts_time": 54.179125,
+      "packet_size": 48278,
+      "offset_start": 17421683,
+      "offset_end": 18712861,
+      "segment_size": 1291178
+    }
+  ]
+}

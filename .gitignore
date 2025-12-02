@@ -1,3 +1,4 @@
 # remove the keyframes and video_bertween_keyframes folder
 ./keyframes
 ./video_between_keyframes
+./env

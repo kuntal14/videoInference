@@ -29,56 +29,23 @@
         }
     },
     "objects": {
-        "type": "array",
         "items": {
-            "type": "object",
-            "required": [
-                "label",
-                "bbox",
-                "conf"
-            ],
+            "name": "string",
             "properties": {
-                "label": {
-                    "type": "string"
-                },
-                "bbox": {
-                    "type": "array",
-                    "items": {
-                        "type": "number",
-                        "minimum": 0,
-                        "maximum": 1
-                    },
-                    "minItems": 4,
-                    "maxItems": 4,
-                    "description": "[x, y, width, height] – normalised to frame size"
-                },
-                "conf": {
-                    "type": "number",
-                    "minimum": 0,
-                    "maximum": 1
-                }
+                "description": "string explaining the object and its properties"
             }
         }
     },
     "people": {
         "type": "array",
         "items": {
-            "type": "object",
-            "required": [
-                "id",
-                "bbox"
-            ],
+            "type": "name",
             "properties": {
-                "id": {
-                    "type": "string"
-                },
                 "gender": {
                     "type": "string",
                     "enum": [
                         "male",
-                        "female",
-                        "nonbinary",
-                        "unknown"
+                        "female"
                     ]
                 },
                 "expression": {
@@ -92,16 +59,6 @@
                         "surprised",
                         "unknown"
                     ]
-                },
-                "bbox": {
-                    "type": "array",
-                    "items": {
-                        "type": "number",
-                        "minimum": 0,
-                        "maximum": 1
-                    },
-                    "minItems": 4,
-                    "maxItems": 4
                 }
             }
         }
@@ -109,7 +66,7 @@
     "actions": {
         "type": "array",
         "items": {
-            "type": "object",
+            "type": "string",
             "required": [
                 "verb",
                 "subject"
